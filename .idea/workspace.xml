@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="11394eeb-df5d-4a71-8756-aa6ca5fe7bed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/data.db" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Code/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/item.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Code/item.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="258">
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -83,9 +82,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1050" />
-    <option name="y" value="505" />
-    <option name="width" value="1509" />
+    <option name="x" value="993" />
+    <option name="y" value="749" />
+    <option name="width" value="1415" />
     <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -147,18 +146,18 @@
       <updated>1562092617221</updated>
       <workItem from="1562092618266" duration="21000" />
       <workItem from="1562092639698" duration="1181000" />
-      <workItem from="1562094077155" duration="4150000" />
+      <workItem from="1562094077155" duration="4855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5352000" />
+    <option name="totallyTimeSpent" value="6057000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1050" y="505" width="1509" height="774" extended-state="0" />
+    <frame x="993" y="749" width="1415" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1465576" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1565914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,8 +231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Code/item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="258">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
