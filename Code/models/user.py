@@ -1,7 +1,6 @@
 import sqlite3
 
 class UserModel:
-    TABLE_NAME = 'users'
 
 	def __init__(self, _id, username, password):
 		self.id = _id
@@ -14,7 +13,7 @@ class UserModel:
 		connection = sqlite3.connect('data.db')
 		cursor = connection.cursor()
 
-		query = "SELECT * FROM {table} WHERE username=?".format(table=cls.TABLE_NAME)
+		query = "SELECT * FROM users WHERE username=?"
 		result = cursor.execute(query, (username,))
 		row = result.fetchone()
 		if row:
@@ -31,7 +30,7 @@ class UserModel:
 		connection = sqlite3.connect('data.db')
 		cursor = connection.cursor()
 
-		query = "SELECT * FROM {table} WHERE id=?".format(table=cls.TABLE_NAME)
+		query = "SELECT * FROM users WHERE id=?"
 		result = cursor.execute(query, (_id,))
 		row = result.fetchone()
 		if row:
@@ -40,4 +39,4 @@ class UserModel:
 			user = None
 
 		connection.close()
-		return usersss
+		return user
