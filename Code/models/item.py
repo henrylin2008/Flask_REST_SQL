@@ -41,4 +41,4 @@ class ItemModel:
         connection.close()
 
         if row:
-            return {'item': {'name': row[0], 'price': row[1]}}
+            return cls(*row) ##same as __init__(self, name = row[0], price = row[1])
