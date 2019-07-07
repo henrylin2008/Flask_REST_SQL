@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11394eeb-df5d-4a71-8756-aa6ca5fe7bed" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Code/models/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/models/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code/resources/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/resources/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code/resources/item.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code/resources/item.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Code/models/user.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
@@ -40,6 +40,18 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Code/resources/item.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -55,6 +67,7 @@
       <find>user</find>
       <find>self</find>
       <find>his field can</find>
+      <find>itemlist</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -70,15 +83,15 @@
         <option value="$PROJECT_DIR$/Code/create_tables.py" />
         <option value="$PROJECT_DIR$/Code/models/item.py" />
         <option value="$PROJECT_DIR$/Code/app.py" />
-        <option value="$PROJECT_DIR$/Code/resources/item.py" />
         <option value="$PROJECT_DIR$/Code/models/user.py" />
         <option value="$PROJECT_DIR$/Code/resources/user.py" />
+        <option value="$PROJECT_DIR$/Code/resources/item.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1082" />
-    <option name="y" value="581" />
+    <option name="x" value="1037" />
+    <option name="y" value="607" />
     <option name="width" value="1412" />
     <option name="height" value="774" />
   </component>
@@ -170,12 +183,12 @@
       <workItem from="1562092639698" duration="1181000" />
       <workItem from="1562094077155" duration="6645000" />
       <workItem from="1562253046902" duration="170000" />
-      <workItem from="1562253246864" duration="9017000" />
+      <workItem from="1562253246864" duration="10466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17034000" />
+    <option name="totallyTimeSpent" value="18483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -187,7 +200,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1082" y="581" width="1412" height="774" extended-state="0" />
+    <frame x="1037" y="607" width="1412" height="774" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68171555" visible="true" weight="0.15985401" />
@@ -274,22 +287,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/resources/item.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Code/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Code/models/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -304,12 +317,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Code/models/user.py">
+    <entry file="file://$PROJECT_DIR$/Code/resources/item.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="390">
+          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
