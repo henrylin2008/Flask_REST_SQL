@@ -20,6 +20,12 @@ def create_tables():
 
 jwt = JWTManager(app) # /auth
 
+@jwt.user_claims_loader
+def add_claims_to_jwt(identity):
+    if identity == 1: # First user = admin
+        return {'is_admin': True}
+    return {'is_admin': False}
+
 api.add_resource(Store, '/store/<string:name>')
 api.add_resource(Item, '/item/<string:name>')
 api.add_resource(ItemList, '/items')
